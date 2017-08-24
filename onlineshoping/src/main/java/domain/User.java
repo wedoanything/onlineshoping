@@ -1,7 +1,19 @@
 package domain;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import org.hibernate.annotations.Columns;
+
+@Entity(name="users")
 public class User {
-	private String uid,uname,email,mobile,password;
+	@Id@GeneratedValue
+	
+	private String uid;
+	@Column
+	private String uname,email,mobile,password;
 
 	public String getUid() {
 		return uid;
