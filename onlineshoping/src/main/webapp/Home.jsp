@@ -8,6 +8,7 @@
 <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+<img alt="" src="" style="z-index: -1;width:100px;height:100px; ">
 <div style="width: auto;height: 40px; border: 2px solid blue;background-color: #6495ED;border-radius: 5px;">
 <h1 class="header1">We Do Any Thing</h1></div>
 </body>
