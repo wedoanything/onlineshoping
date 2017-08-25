@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>WeDoAnyThing-Home</title>
+<link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-
+<div style="width: auto;height: 40px; border: 2px solid blue;background-color: #6495ED;border-radius: 5px;">
+<h1 class="header1">We Do Any Thing</h1></div>
 </body>
 </html>

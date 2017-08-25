@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 import org.hibernate.annotations.Columns;
 
-@Entity(name="users")
+@Entity
 public class User {
 	@Id@GeneratedValue
 	
